@@ -1,1 +1,1 @@
-web: jupyter lab --host=0.0.0.0 --port=$PORT --allow-root --IdentityProvider.token='' --ServerApp.password=''
+web: jupyter lab --ServerApp.ip=0.0.0.0 --ServerApp.port=$PORT --allow-root --IdentityProvider.token='' --ServerApp.password=''
